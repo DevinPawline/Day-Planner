@@ -37,3 +37,9 @@ function colorTimeBlocks() {
     });
   }
   
+  function handleSave(event) {
+    // Id of the parent
+    var hourId = $(this).parent().attr("id");
+    // Save data in local storage
+    localStorage.setItem(moment().format("DDDYYYY") + hourId, $("#" + hourId + " textarea").val());
+  }

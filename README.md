@@ -28,6 +28,6 @@ WHEN I refresh the page
 THEN the saved events persist
 
 
-### Screen Recording of Funcationality: 
+### Deployable Link:
+https://devinpawline.github.io/dayPlanner/
 
-#### Deployable Link: 
